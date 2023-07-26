@@ -1,5 +1,7 @@
 # vue-use-context
 
+![npm](https://img.shields.io/npm/v/vue-use-context) ![npm](https://img.shields.io/npm/dw/vue-use-context)
+
 Get Vue globalProperties easily in setup.
 
 ## Install
