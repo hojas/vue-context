@@ -1,0 +1,44 @@
+{
+  "name": "vue-use-context",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.6.10",
+  "license": "MIT",
+  "repository": "hojas/vue-use-context",
+  "bugs": "https://github.com/hojas/vue-use-context/issues",
+  "keywords": [
+    "vue",
+    "context"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "require": "./dist/use-context.umd.cjs",
+      "import": "./dist/use-context.js"
+    }
+  },
+  "main": "./dist/use-context.umd.cjs",
+  "module": "./dist/use-context.js",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "node ./scripts/dev.cjs",
+    "build": "node ./scripts/build.cjs",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.8",
+    "@types/node": "^20.4.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.45.0",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7",
+    "vue-tsc": "^1.8.6"
+  }
+}

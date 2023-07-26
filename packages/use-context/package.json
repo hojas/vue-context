@@ -1,0 +1,25 @@
+{
+  "name": "use-context",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "require": "./src/main.ts",
+      "import": "./src/main.ts"
+    }
+  },
+  "main": "./src/main.ts",
+  "module": "./src/main.ts",
+  "scripts": {
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "vue": "*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "*",
+    "typescript": "*",
+    "vite": "*",
+    "vue-tsc": "*"
+  }
+}
